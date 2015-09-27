@@ -32,7 +32,7 @@ class IncidentsController < ApplicationController
     }.to_json
 
     Thread.new do
-      for i in 0..params[:numberIncidents].to_i
+      for i in 1..params[:numberIncidents].to_i
         self.class.post('https://events.pagerduty.com/generic/2010-04-15/create_event.json', { :body => stuff })
       end
     end
