@@ -18,3 +18,22 @@ body {
     padding: 40px 15px;
     text-align: center;
 }
+
+.navbar {
+    background-color: #1F293A;
+}
+
+a {
+    font-family: "Lucida Grande", sans-serif;
+    color: green !important;
+}
+
+button :hover {
+    background-color: #50f103 !important;
+    color: white !important;
+}
+button {
+    background-color: #47BA04;
+    color: white !important;
+}
+
