@@ -1,0 +1,45 @@
+0xf0801 CBS_S_BUSY operation is still in progress
+0xf0802 CBS_S_ALREADY_EXISTS source already exists, now copy not added
+0xf0803 CBS_S_STACK_SHUTDOWN_REQUIRED servicing stack updated, aborting
+0xf0800 CBS_E_INTERNAL_ERROR Reserved error (|); there is no message for this error
+0xf0801 CBS_E_NOT_INITIALIZED session not initialized
+0xf0802 CBS_E_ALREADY_INITIALIZED session already initialized
+0xf0803 CBS_E_INVALID_PARAMETER invalid method argument
+0xf0804CBS_E_OPEN_FAILED the update could not be found or could not be opened
+0xf0805CBS_E_INVALID_PACKAGE the update package was not a valid CSI update
+0xf0806CBS_E_PENDING the operation could not be complete due to locked resources
+0xf0807 CBS_E_NOT_INSTALLABLE the component referenced is not separately installable
+0xf0808 CBS_E_IMAGE_NOT_ACCESSIBLE the image location specified could not be accessed
+0xf0809 CBS_E_ARRAY_ELEMENT_MISSING attempt to get non-existent array element
+0xf080A CBS_E_REESTABLISH_SESSION session object updated, must recreate session
+0xf080B CBS_E_PROPERTY_NOT_AVAILABLE requested property is not supported
+0xf080C CBS_E_UNKNOWN_UPDATE named update not present in package
+0xf080D CBS_E_MANIFEST_INVALID_ITEM invalid attribute or element name encountered
+0xf080E CBS_E_MANIFEST_VALIDATION_DUPLICATE_ATTRIBUTES multiple attributes have the same name
+0xf080F CBS_E_MANIFEST_VALIDATION_DUPLICATE_ELEMENT multiple elements have the same name
+0xf0810 CBS_E_MANIFEST_VALIDATION_MISSING_REQUIRED_ATTRIBUTES required attributes are missing
+0xf0811 CBS_E_MANIFEST_VALIDATION_MISSING_REQUIRED_ELEMENTS required attributes are missing
+0xf0812 CBS_E_MANIFEST_VALIDATION_UPDATES_PARENT_MISSING required attributes are missing
+0xf0813 CBS_E_INVALID_INSTALL_STATE install state value not acceptable
+0xf0814 CBS_E_INVALID_CONFIG_VALUE invalid setting configuration value
+0xf0815 CBS_E_INVALID_CARDINALITY invalid cardinality
+0xf0816 CBS_E_DPX_JOB_STATE_SAVED job state for DPX has been saved
+0xf0817 CBS_E_PACKAGE_DELETED package was uninstalled and is no longer accessible
+0xf0818 CBS_E_IDENTITY_MISMATCH container package points to a package manifest whose identity doesn't match the identity specified
+0xf0819CBS_E_DUPLICATE_UPDATENAME update name is duplicated in package.
+0xf081A CBS_E_INVALID_DRIVER_OPERATION_KEY the driver operations key is corrupt or invalid
+0xf081B CBS_E_UNEXPECTED_PROCESSOR_ARCHITECTURE the processor architecture specified is not supported
+0xf081C CBS_E_EXCESSIVE_EVALUATION Watchlist: not able to reach steady state after too many attempts.
+0xf081D CBS_E_CYCLE_EVALUATION Watchlist: cycle appears when planning component intended state.
+0xf081E CBS_E_NOT_APPLICABLE the package is not applicable
+0xf081F CBS_E_SOURCE_MISSING source for package or file not found, ResolveSource() unsuccessful
+0xf0820 CBS_E_CANCEL user cancel, IDCANCEL returned by ICbsUIHandler method except Error()
+0xf0821 CBS_E_ABORT client abort, IDABORT returned by ICbsUIHandler method except Error()
+0xf0822 CBS_E_ILLEGAL_COMPONENT_UPDATE Component update without specifying <updateComponent> in package manifest.
+0xf0823 CBS_E_NEW_SERVICING_STACK_REQUIRED Package needs a newer version of the servicing stack.
+0xf0824 CBS_E_SOURCE_NOT_IN_LIST Package source not in list.
+0xf0825 CBS_E_CANNOT_UNINSTALL Package cannot be uninstalled.
+0xf0826 CBS_E_PENDING_VICTIM Package failed to install because another pended package failed.
+0xf0827 CBS_E_STACK_SHUTDOWN_REQUIRED servicing stack updated, aborting
+0xf0900 CBS_E_XML_PARSER_FAILURE unexpected internal XML parser error.
+0xf0901 CBS_E_MANIFEST_VALIDATION_MULTIPLE_UPDATE_COMPONENT_ON_SAME_FAMILY_NOT_ALLOWED In a given package, only one <updateComponent> Is allowed for a component family.
