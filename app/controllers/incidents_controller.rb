@@ -8,8 +8,10 @@ class IncidentsController < ApplicationController
   headers 'Accept' => 'application/json'
 
   def generate_incident
-    random_error =  File.readlines('app/controllers/error_codes.txt').sample
-    random_client = File.readlines('app/controllers/clients.txt').sample
+
+    random_error =  File.readlines('app/controllers/error_codes.txt').sample.strip
+    random_client = File.readlines('app/controllers/clients.txt').sample.strip
+    random_gif = File.readlines('app/controllers/gifs.txt').sample.strip
 
     { :service_key => params[:serviceKey],
               :event_type => 'trigger',
@@ -24,7 +26,7 @@ class IncidentsController < ApplicationController
                   },
                   {
                       'type' => 'image',
-                      'src' => 'https://chart.googleapis.com/chart?chs=451x180&chd=t:1,2,3,5,8,13,7&cht=lc&chds=a&chxt=y&chm=D,0033FF,0,0,5,1%22'
+                      'src' => random_gif
                   }
               ],
               :details => {
